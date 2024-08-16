@@ -17,7 +17,8 @@ const categories = [
     'Kitchen', 
     'Personal Care', 
     'Security', 
-    'Home Appliances'
+    'Home Appliances',
+    'Clothing'
   ];
 const Shop = () => {
   const [products, setProducts] = useState([]);
@@ -161,7 +162,7 @@ const Shop = () => {
         </select>
       </div>
       <div className="shop-container">
-        <div className="products-container">
+        <div className="products-container flex-wrap mx-auto my-20">
           {filteredProducts.map((product) => (
             <Product
               key={product._id}
@@ -170,14 +171,10 @@ const Shop = () => {
             />
           ))}
         </div>
-        <div className="cart-container">
-          <Cart cart={cart} >
-            <Link className="proceed-link" to="/orders">
-              <button className="btn-proceed">Review Order</button>
-            </Link>
-          </Cart>
-        </div>
-        <div className="pagination">
+
+    
+      </div>
+      <div className="pagination">
           <p>Current page: {currentPage}</p>
           <button onClick={handlePrevPage}>Prev</button>
           {pages.map((page) => (
@@ -197,7 +194,6 @@ const Shop = () => {
             <option value="50">50</option>
           </select>
         </div>
-      </div>
     </>
   );
 };
