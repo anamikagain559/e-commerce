@@ -14,6 +14,7 @@ import { FaPenFancy } from "react-icons/fa6";
 
 const Footer = () => {
   return (
+    
     <footer className=" lg:p-10 p-5 bg-black text-base-content  ">
       <div className="w-[1280px] mx-auto grid lg:grid-cols-3 grid-cols-1 gap-10">
         <nav className=" lg:p-5 ">
