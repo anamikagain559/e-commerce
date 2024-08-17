@@ -4,6 +4,7 @@ import Cart from "../Cart/Cart";
 import Product from "../Product/Product";
 import "./Shop.css";
 import { Link, useLoaderData } from "react-router-dom";
+
 const categories = [
   "Home Decor",
   "Outdoor",
@@ -16,6 +17,7 @@ const categories = [
   "Home Appliances",
   "Clothing",
 ];
+
 const brands = [
   "SoundMax",
   "EcoWear",
@@ -37,6 +39,7 @@ const brands = [
   "CrispyFry",
   "BrightHue",
 ];
+
 const Shop = () => {
   const [products, setProducts] = useState([]);
   const cart = useLoaderData();
@@ -54,14 +57,14 @@ const Shop = () => {
   const pages = [...Array(numberOfPages).keys()];
 
   useEffect(() => {
-    fetch("http://localhost:5000/productsCount")
+    fetch("https://e-commerce-delta-cyan-39.vercel.app/productsCount")
       .then((res) => res.json())
       .then((data) => setCount(data.count));
   }, []);
 
   useEffect(() => {
     fetch(
-      `http://localhost:5000/products?page=${currentPage}&size=${itemsPerPage}`
+      `https://e-commerce-delta-cyan-39.vercel.app/products?page=${currentPage}&size=${itemsPerPage}`
     )
       .then((res) => res.json())
       .then((data) => setProducts(data));
@@ -140,16 +143,15 @@ const Shop = () => {
 
   return (
     <>
-      <div className="  text-center pt-5">
-       
-         <div className="select-wrapper">
-         <input
-          type="text"
-          placeholder="Search products"
-          className="input input-bordered w-full max-w-xs pr-2"
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-        />
+      <div className="text-center pt-5">
+        <div className="select-wrapper">
+          <input
+            type="text"
+            placeholder="Search products"
+            className="input input-bordered w-full max-w-xs pr-2"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
           <br />
 
           <select
@@ -163,45 +165,44 @@ const Shop = () => {
             <option value="dateAdded">Date Added: Newest First</option>
           </select>
           <span className="dropdown-arrow"></span>
-        
-        <select
-          value={brand}
-          onChange={(e) => setBrand(e.target.value)}
-          className="select select-bordered w-full max-w-xs"
-        >
-          <option value="">All Brands</option>
-          {brands.map((brandName) => (
-            <option key={brandName} value={brandName}>
-              {brandName}
-            </option>
-          ))}
-        </select>
-        <select
-          value={category}
-          onChange={handleCategoryChange}
-          className="select select-bordered w-full max-w-xs"
-        >
-          <option value="">All Categories</option>
-          {categories.map((cat) => (
-            <option key={cat} value={cat}>
-              {cat}
-            </option>
-          ))}
-        </select>
 
-       
-        <br />
-        <input
-          type="range"
-          min="0"
-          max="1000"
-          value={priceRange[1]}
-          onChange={(e) => setPriceRange([0, parseInt(e.target.value)])}
-        />
-        <span>
-          Price Range: {priceRange[0]} - {priceRange[1]}
-        </span>
-      </div>
+          <select
+            value={brand}
+            onChange={(e) => setBrand(e.target.value)}
+            className="select select-bordered w-full max-w-xs"
+          >
+            <option value="">All Brands</option>
+            {brands.map((brandName) => (
+              <option key={brandName} value={brandName}>
+                {brandName}
+              </option>
+            ))}
+          </select>
+          <select
+            value={category}
+            onChange={handleCategoryChange}
+            className="select select-bordered w-full max-w-xs"
+          >
+            <option value="">All Categories</option>
+            {categories.map((cat) => (
+              <option key={cat} value={cat}>
+                {cat}
+              </option>
+            ))}
+          </select>
+
+          <br />
+          <input
+            type="range"
+            min="0"
+            max="1000"
+            value={priceRange[1]}
+            onChange={(e) => setPriceRange([0, parseInt(e.target.value)])}
+          />
+          <span>
+            Price Range: {priceRange[0]} - {priceRange[1]}
+          </span>
+        </div>
       </div>
       <div className="shop-container">
         <div className="products-container flex-wrap mx-auto my-20">
@@ -211,18 +212,25 @@ const Shop = () => {
         </div>
       </div>
       <div className="pagination">
-        <p>Current page: {currentPage}</p>
-        <button onClick={handlePrevPage}>Prev</button>
+        <p>Current page: {currentPage + 1}</p>
+        <button onClick={handlePrevPage} disabled={currentPage === 0}>
+          Prev
+        </button>
         {pages.map((page) => (
           <button
             className={currentPage === page ? "selected" : undefined}
             onClick={() => setCurrentPage(page)}
             key={page}
           >
-            {page}
+            {page + 1}
           </button>
         ))}
-        <button onClick={handleNextPage}>Next</button>
+        <button
+          onClick={handleNextPage}
+          disabled={currentPage === pages.length - 1}
+        >
+          Next
+        </button>
         <select value={itemsPerPage} onChange={handleItemsPerPage}>
           <option value="5">5</option>
           <option value="10">10</option>
