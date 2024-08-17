@@ -8,7 +8,6 @@ function Register() {
   useEffect(() => {
     document.title = "Register Page";
   });
-
   const { createUser } = useContext(AuthContext);
   const [showPassword, setShowPassword] = useState(false);
   const [password, setPassword] = useState("");
