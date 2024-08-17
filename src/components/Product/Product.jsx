@@ -4,7 +4,7 @@ import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const Product = (props) => {
 
-    const { image, name, category, ratings, price,description } = props.product;
+    const { image, name, category, ratings, price,description,brand } = props.product;
     const handleAddToCart = props.handleAddToCart;
 
 
@@ -22,8 +22,9 @@ const Product = (props) => {
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{name}</h5>
         </a>
         <p> <span  class=" text-xl font-bold tracking-tight text-gray-900 dark:text-white">Price:</span> ${price}</p>
-        <p>Category: {category}</p>
-        <p>Rating: {ratings} Stars</p>
+        <p><span  class=" text-xl font-bold tracking-tight text-gray-900 dark:text-white">Category:</span> {category}</p>
+        <p><span  class=" text-xl font-bold tracking-tight text-gray-900 dark:text-white">Brand:</span> {brand} Stars</p>
+        <p><span  class=" text-xl font-bold tracking-tight text-gray-900 dark:text-white">Rating:</span> {ratings} Stars</p>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Details : {description}</p>
         <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
         See Details

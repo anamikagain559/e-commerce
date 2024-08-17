@@ -1,243 +1,427 @@
 [
-   
     {
-      "id": "17",
-      "name": "Noise-Cancelling Earbuds",
-      "image": "https://example.com/images/noisecancellingearbuds.jpg",
-      "description": "Wireless noise-cancelling earbuds with long battery life and clear sound.",
-      "price": 69.99,
-      "category": "Electronics",
-      "ratings": 4.6,
-      "dateAdded": "2022-05-05T09:00:00Z"
-    },
-    {
-      "id": "18",
-      "name": "Portable Projector",
-      "image": "https://example.com/images/portableprojector.jpg",
-      "description": "Compact portable projector with HD resolution and built-in speakers.",
-      "price": 149.99,
-      "category": "Electronics",
-      "ratings": 4.4,
-      "dateAdded": "2022-04-01T13:00:00Z"
-    },
-    {
-      "id": "19",
-      "name": "Smart Home Hub",
-      "image": "https://example.com/images/smarthomehub.jpg",
-      "description": "Smart home hub for controlling all your smart devices from one place.",
-      "price": 89.99,
-      "category": "Smart Home",
-      "ratings": 4.7,
-      "dateAdded": "2022-03-10T16:15:00Z"
-    },
-    {
-      "id": "20",
-      "name": "Action Camera",
-      "image": "https://example.com/images/actioncamera.jpg",
-      "description": "4K action camera with waterproof case and wide-angle lens.",
+      "id": "1",
+      "name": "Wireless Bluetooth Headphones",
+      "image": "https://i.ibb.co/5Y9d6hX/0373155-p47-headband-foldable-stereo-bluetooth-headphones-wireless-headset.jpg",
+      "description": "High-quality wireless headphones with noise cancellation and long battery life.",
       "price": 99.99,
-      "category": "Photography",
+      "category": "Electronics",
       "ratings": 4.5,
-      "dateAdded": "2022-02-20T11:30:00Z"
+      "dateAdded": "2023-08-16T10:00:00Z"
     },
     {
-      "id": "21",
-      "name": "Digital Picture Frame",
-      "image": "https://example.com/images/digitalpictureframe.jpg",
-      "description": "High-resolution digital picture frame with Wi-Fi and remote control.",
-      "price": 59.99,
-      "category": "Home Decor",
-      "ratings": 4.6,
-      "dateAdded": "2022-01-15T15:00:00Z"
+      "id": "2",
+      "name": "Organic Cotton T-Shirt",
+      "image": "https://i.ibb.co/StZ84Vb/M-Heavy-Boxed-T-Shirt-aus-Bio-Baumwolle-Kleidung-Fair-Natural-Raw-Vorne2.jpg",
+      "description": "Comfortable and eco-friendly organic cotton t-shirt available in various sizes and colors.",
+      "price": 19.99,
+      "category": "Clothing",
+      "ratings": 4.0,
+      "dateAdded": "2023-07-20T14:30:00Z"
     },
     {
-      "id": "22",
-      "name": "Electric Scooter",
-      "image": "https://example.com/images/electricscooter.jpg",
-      "description": "Foldable electric scooter with long-range battery and powerful motor.",
-      "price": 299.99,
-      "category": "Outdoor",
-      "ratings": 4.7,
-      "dateAdded": "2021-12-10T09:30:00Z"
-    },
-    {
-      "id": "23",
-      "name": "Portable Power Bank",
-      "image": "https://example.com/images/powerbank.jpg",
-      "description": "High-capacity portable power bank with fast charging and multiple ports.",
-      "price": 34.99,
-      "category": "Electronics",
-      "ratings": 4.4,
-      "dateAdded": "2021-11-20T13:00:00Z"
-    },
-    {
-      "id": "24",
-      "name": "Smart Light Bulbs",
-      "image": "https://example.com/images/smartlightbulbs.jpg",
-      "description": "Set of smart light bulbs with app control and voice assistant compatibility.",
-      "price": 49.99,
-      "category": "Smart Home",
-      "ratings": 4.5,
-      "dateAdded": "2021-10-15T18:00:00Z"
-    },
-    {
-      "id": "25",
-      "name": "Wireless Keyboard and Mouse",
-      "image": "https://example.com/images/keyboardmouse.jpg",
-      "description": "Compact wireless keyboard and mouse combo with ergonomic design.",
-      "price": 29.99,
-      "category": "Computers",
-      "ratings": 4.3,
-      "dateAdded": "2021-09-10T14:00:00Z"
-    },
-    {
-      "id": "26",
-      "name": "Smartwatch",
-      "image": "https://example.com/images/smartwatch.jpg",
-      "description": "Stylish smartwatch with fitness tracking, notifications, and customizable watch faces.",
-      "price": 89.99,
-      "category": "Electronics",
-      "ratings": 4.7,
-      "dateAdded": "2021-08-05T10:30:00Z"
-    },
-    {
-      "id": "27",
-      "name": "Portable Bluetooth Speaker",
-      "image": "https://example.com/images/bluetoothspeaker.jpg",
-      "description": "Waterproof portable Bluetooth speaker with powerful sound and long battery life.",
-      "price": 39.99,
-      "category": "Electronics",
-      "ratings": 4.6,
-      "dateAdded": "2021-07-01T12:00:00Z"
-    },
-    {
-      "id": "28",
-      "name": "Electric Grill",
-      "image": "https://example.com/images/electricgrill.jpg",
-      "description": "Indoor electric grill with non-stick surface and adjustable temperature control.",
-      "price": 59.99,
+      "id": "3",
+      "name": "Stainless Steel Water Bottle",
+      "image": "https://i.ibb.co/nsNvXvR/900558a79eb774c5405bac146d2b06f1.jpg",
+      "description": "Durable stainless steel water bottle with a leak-proof lid and 750ml capacity.",
+      "price": 15.99,
       "category": "Kitchen",
-      "ratings": 4.5,
-      "dateAdded": "2021-06-10T16:00:00Z"
+      "ratings": 4.7,
+      "dateAdded": "2023-06-15T08:45:00Z"
     },
     {
-      "id": "29",
-      "name": "Smart Thermostat",
-      "image": "https://example.com/images/smartthermostat.jpg",
-      "description": "Smart thermostat with Wi-Fi control and energy-saving features.",
+      "id": "4",
+      "name": "Ergonomic Office Chair",
+      "image": "https://i.ibb.co/pbyVZyX/633bc22597235258d52d0584-office-chair-felixking-ergonomic-desk.jpg",
+      "description": "Ergonomic office chair with lumbar support, adjustable height, and breathable mesh back.",
       "price": 129.99,
-      "category": "Smart Home",
+      "category": "Furniture",
+      "ratings": 4.3,
+      "dateAdded": "2023-05-10T12:00:00Z"
+    },
+    {
+      "id": "5",
+      "name": "Electric Toothbrush",
+      "image": "https://i.ibb.co/JC2WThz/PEO-Group-Electric-Toothbrushes-tamara-staples-0627-13b1b99583954a0ba4ab0d8b99493d61.jpg",
+      "description": "Rechargeable electric toothbrush with multiple cleaning modes and a 2-minute timer.",
+      "price": 39.99,
+      "category": "Personal Care",
       "ratings": 4.8,
-      "dateAdded": "2021-05-05T09:00:00Z"
+      "dateAdded": "2023-04-05T09:15:00Z"
     },
     {
-      "id": "30",
-      "name": "Cordless Vacuum Cleaner",
-      "image": "https://example.com/images/vacuumcleaner.jpg",
-      "description": "Lightweight cordless vacuum cleaner with powerful suction and long battery life.",
-      "price": 149.99,
-      "category": "Home Appliances",
-      "ratings": 4.7,
-      "dateAdded": "2021-04-01T13:00:00Z"
-    },
-    {
-      "id": "31",
-      "name": "Electric Hair Trimmer",
-      "image": "https://example.com/images/hairtrimmer.jpg",
-      "description": "Professional electric hair trimmer with multiple length settings and cordless design.",
-      "price": 24.99,
-      "category": "Personal Care",
+      "id": "6",
+      "name": "4K Ultra HD Smart TV",
+      "image": "https://i.ibb.co/7n1nQj8/images.jpg",
+      "description": "55-inch 4K Ultra HD Smart TV with built-in streaming apps and voice control.",
+      "price": 499.99,
+      "category": "Electronics",
       "ratings": 4.6,
-      "dateAdded": "2021-03-10T11:00:00Z"
+      "dateAdded": "2023-03-01T16:00:00Z"
     },
     {
-      "id": "32",
-      "name": "Smart Doorbell",
-      "image": "https://example.com/images/smartdoorbell.jpg",
-      "description": "Smart doorbell with video camera, motion detection, and two-way audio.",
-      "price": 99.99,
-      "category": "Smart Home",
+      "id": "7",
+      "name": "Yoga Mat",
+      "image": "https://img.drz.lazcdn.com/g/kf/S90800eddbfb64f329d53a7f21800c9e4d.jpg_720x720q80.jpg_.webp",
+      "description": "Non-slip yoga mat with extra thickness for comfort and support during workouts.",
+      "price": 25.99,
+      "category": "Fitness",
+      "ratings": 4.4,
+      "dateAdded": "2023-02-10T07:30:00Z"
+    },
+    {
+      "id": "8",
+      "name": "Wireless Charger",
+      "image": "https://img.drz.lazcdn.com/g/kf/Se608bb4f11544d5daf9a368b11f8bcb36.jpg_720x720q80.jpg_.webp",
+      "description": "Fast wireless charger compatible with all Qi-enabled devices.",
+      "price": 29.99,
+      "category": "Electronics",
+      "ratings": 4.2,
+      "dateAdded": "2023-01-20T13:45:00Z"
+    },
+    {
+      "id": "9",
+      "name": "Smartphone Gimbal",
+      "image": "https://i.ibb.co/1sWGbx5/DJI-Osmo-Mobile-SE-Smartphone-Gimbal-3.webp",
+      "description": "3-axis smartphone gimbal for smooth and stable video recording.",
+      "price": 89.99,
+      "category": "Photography",
       "ratings": 4.7,
-      "dateAdded": "2021-02-20T15:00:00Z"
+      "dateAdded": "2023-01-05T15:30:00Z"
     },
     {
-      "id": "33",
-      "name": "Electric Shaver",
-      "image": "https://example.com/images/electricshaver.jpg",
-      "description": "Rechargeable electric shaver with precision blades and waterproof design.",
-      "price": 59.99,
-      "category": "Personal Care",
+      "id": "10",
+      "name": "Wireless Earbuds",
+      "image": "https://i.ibb.co/DwyyNmY/free-2s-01-500x500.webp",
+      "description": "True wireless earbuds with touch controls and a compact charging case.",
+      "price": 49.99,
+      "category": "Electronics",
       "ratings": 4.5,
-      "dateAdded": "2021-01-10T08:00:00Z"
+      "dateAdded": "2022-12-15T11:00:00Z"
     },
+    {
+      "id": "11",
+      "name": "Gaming Laptop",
+      "image": "https://img.lazcdn.com/3rd/q/aHR0cHM6Ly9zdGF0aWMtMDEuZGFyYXouY29tLmJkL3AvZDE4YWEwYmFmMTAxMTU4YzM3ODY1MzkwNmEzZjdmNmYuanBn_360x360q75.png_.webpg",
+      "description": "High-performance gaming laptop with powerful graphics and fast processor.",
+      "price": 1099.99,
+      "category": "Computers",
+      "ratings": 4.8,
+      "dateAdded": "2022-11-20T14:30:00Z"
+    },
+    {
+      "id": "12",
+      "name": "Instant Pot",
+      "image": "https://img.drz.lazcdn.com/static/bd/p/89b7b2875d5a9e97186e1b9ce0705f81.jpg_720x720q80.jpg_.webp",
+      "description": "Multi-functional electric pressure cooker with various cooking modes.",
+      "price": 79.99,
+      "category": "Kitchen",
+      "ratings": 4.6,
+      "dateAdded": "2022-10-25T18:00:00Z"
+    },
+    {
+      "id": "13",
+      "name": "Electric Kettle",
+      "image": "https://waltonbd.com/image/cache/catalog/home-appliances/kettle/wk-ljss120n/SS.485-1-364x364.png",
+      "description": "Fast-boiling electric kettle with automatic shut-off and 1.7-liter capacity.",
+      "price": 24.99,
+      "category": "Kitchen",
+      "ratings": 4.4,
+      "dateAdded": "2022-09-30T08:15:00Z"
+    },
+    {
+      "id": "14",
+      "name": "Fitness Tracker",
+      "image": "https://i.ibb.co/rH47FQT/Best20-Trackers20-Background20-Garmin20-Fitbit-Amazon.webp",
+      "description": "Waterproof fitness tracker with heart rate monitor and sleep tracking.",
+      "price": 49.99,
+      "category": "Fitness",
+      "ratings": 4.2,
+      "dateAdded": "2022-08-20T10:00:00Z"
+    },
+    {
+      "id": "15",
+      "name": "Espresso Machine",
+      "image": "https://www.eurokitchens-bd.com/uploads/items/iSTINxlT5JHbiejs27dEotYzWyG5n3Be5bdh6wCB.png",
+      "description": "Professional-grade espresso machine with milk frother for perfect coffee drinks.",
+      "price": 199.99,
+      "category": "Kitchen",
+      "ratings": 4.9,
+      "dateAdded": "2022-07-15T12:30:00Z"
+    },
+    {
+      "id": "16",
+      "name": "LED Desk Lamp",
+      "image": "https://img.drz.lazcdn.com/g/kf/S159a1e7600e14715a7338f5979c23333M.jpg_720x720q80.jpg_.webp",
+      "description": "Adjustable LED desk lamp with touch control and multiple brightness levels.",
+      "price": 29.99,
+      "category": "Home Office",
+      "ratings": 4.3,
+      "dateAdded": "2022-06-10T14:45:00Z"
+    },
+    {
+        "id": "17",
+        "name": "Noise-Cancelling Earbuds",
+        "image": "https://i.ibb.co/7NTQxkw/Pb-BRJvxo-Am4-BM7vfhh8-Zf-G.jpg",
+        "description": "Wireless noise-cancelling earbuds with long battery life and clear sound.",
+        "price": 69.99,
+        "category": "Electronics",
+        "ratings": 4.6,
+        "dateAdded": "2022-05-05T09:00:00Z",
+        "brand": "SoundMax"
+      },
+      {
+        "id": "18",
+        "name": "Portable Projector",
+        "image": "https://i.ibb.co/NCW4BVJ/m1-1-500x500.jpg",
+        "description": "Compact portable projector with HD resolution and built-in speakers.",
+        "price": 149.99,
+        "category": "Electronics",
+        "ratings": 4.4,
+        "dateAdded": "2022-04-01T13:00:00Z",
+        "brand": "VisionTech"
+      },
+      {
+        "id": "19",
+        "name": "Smart Home Hub",
+        "image": "https://i.ibb.co/BL23LC9/download.jpg",
+        "description": "Smart home hub for controlling all your smart devices from one place.",
+        "price": 89.99,
+        "category": "Smart Home",
+        "ratings": 4.7,
+        "dateAdded": "2022-03-10T16:15:00Z",
+        "brand": "HomeLink"
+      },
+      {
+        "id": "20",
+        "name": "Action Camera",
+        "image": "https://i.ibb.co/Qfzn10z/F9j-GGPms-NSZo-Sj-Egqto8e-Z.png",
+        "description": "4K action camera with waterproof case and wide-angle lens.",
+        "price": 99.99,
+        "category": "Photography",
+        "ratings": 4.5,
+        "dateAdded": "2022-02-20T11:30:00Z",
+        "brand": "SteadyShot"
+      },
+      {
+        "id": "21",
+        "name": "Digital Picture Frame",
+        "image": "https://i.ibb.co/2FwzR53/6406804be1813f2dff7a9099-digital-photo-frame-wifi-10-1-inch.jpg",
+        "description": "High-resolution digital picture frame with Wi-Fi and remote control.",
+        "price": 59.99,
+        "category": "Home Decor",
+        "ratings": 4.6,
+        "dateAdded": "2022-01-15T15:00:00Z",
+        "brand": "BrightHue"
+      },
+      {
+        "id": "22",
+        "name": "Electric Scooter",
+        "image": "https://i.ibb.co/1GC122Z/download-1.jpg",
+        "description": "Foldable electric scooter with long-range battery and powerful motor.",
+        "price": 299.99,
+        "category": "Outdoor",
+        "ratings": 4.7,
+        "dateAdded": "2021-12-10T09:30:00Z",
+        "brand": "EcoWear"
+      },
+      {
+        "id": "23",
+        "name": "Portable Power Bank",
+        "image": "https://i.ibb.co/YL8Zcy9/51zbw-Q65j6-L-AC-SL1500.jpg",
+        "description": "High-capacity portable power bank with fast charging and multiple ports.",
+        "price": 34.99,
+        "category": "Electronics",
+        "ratings": 4.4,
+        "dateAdded": "2021-11-20T13:00:00Z",
+        "brand": "ChargeFast"
+      },
+      {
+        "id": "24",
+        "name": "Smart Light Bulbs",
+        "image": "https://i.ibb.co/qDZDCZR/Smart-Light-Bulbs-Image.jpg",
+        "description": "Set of smart light bulbs with app control and voice assistant compatibility.",
+        "price": 49.99,
+        "category": "Smart Home",
+        "ratings": 4.5,
+        "dateAdded": "2021-10-15T18:00:00Z",
+        "brand": "BrightHue"
+      },
+      {
+        "id": "25",
+        "name": "Wireless Keyboard and Mouse",
+        "image": "https://i.ibb.co/dgL3fXr/81-KZLende-ML-AC-SL1500.jpg",
+        "description": "Compact wireless keyboard and mouse combo with ergonomic design.",
+        "price": 29.99,
+        "category": "Computers",
+        "ratings": 4.3,
+        "dateAdded": "2021-09-10T14:00:00Z",
+        "brand": "FlexFit"
+      },
+      {
+        "id": "26",
+        "name": "Smartwatch",
+        "image": "https://i.ibb.co/PCM8SWc/618k-Ulje3-L-AC-SL1424.jpg",
+        "description": "Stylish smartwatch with fitness tracking, notifications, and customizable watch faces.",
+        "price": 89.99,
+        "category": "Electronics",
+        "ratings": 4.7,
+        "dateAdded": "2021-08-05T10:30:00Z",
+        "brand": "FitTrack"
+      },
+      {
+        "id": "27",
+        "name": "Portable Bluetooth Speaker",
+        "image": "https://i.ibb.co/WkfvcPt/download-2.jpg",
+        "description": "Waterproof portable Bluetooth speaker with powerful sound and long battery life.",
+        "price": 39.99,
+        "category": "Electronics",
+        "ratings": 4.6,
+        "dateAdded": "2021-07-01T12:00:00Z",
+        "brand": "BassBoom"
+      },
+      {
+        "id": "28",
+        "name": "Electric Grill",
+        "image": "https://i.ibb.co/KxNb03S/Electric-BBQ-Grill-Machine-2000-W.jpg",
+        "description": "Indoor electric grill with non-stick surface and adjustable temperature control.",
+        "price": 59.99,
+        "category": "Kitchen",
+        "ratings": 4.5,
+        "dateAdded": "2021-06-10T16:00:00Z",
+        "brand": "CookEase"
+      },
+      {
+        "id": "29",
+        "name": "Smart Thermostat",
+        "image": "https://i.ibb.co/h743JLw/Smart-Thermostat.webp",
+        "description": "Smart thermostat with Wi-Fi control and energy-saving features.",
+        "price": 129.99,
+        "category": "Smart Home",
+        "ratings": 4.8,
+        "dateAdded": "2021-05-05T09:00:00Z",
+        "brand": "HomeLink"
+      },
+      {
+        "id": "30",
+        "name": "Cordless Vacuum Cleaner",
+        "image": "https://i.ibb.co/QCb6ss9/rsp-detail-tineco-pure-one-s11-tango-smart-stick-handheld-vacuum-at-tineco-hwortock-0015-8885297ca97.jpg",
+        "description": "Lightweight cordless vacuum cleaner with powerful suction and long battery life.",
+        "price": 149.99,
+        "category": "Home Appliances",
+        "ratings": 4.7,
+        "dateAdded": "2021-04-01T13:00:00Z",
+        "brand": "EcoWear"
+      },
+      {
+        "id": "31",
+        "name": "Electric Hair Trimmer",
+        "image": "https://i.ibb.co/3kYzr5K/download-3.jpg",
+        "description": "Professional electric hair trimmer with multiple length settings and cordless design.",
+        "price": 24.99,
+        "category": "Personal Care",
+        "ratings": 4.6,
+        "dateAdded": "2021-03-10T11:00:00Z",
+        "brand": "SmileBright"
+      },
+      {
+        "id": "32",
+        "name": "Smart Doorbell",
+        "image": "https://i.ibb.co/30fF35K/smart-doorbell-camera-2048px-0048.jpg",
+        "description": "Smart doorbell with video camera, motion detection, and two-way audio.",
+        "price": 99.99,
+        "category": "Smart Home",
+        "ratings": 4.7,
+        "dateAdded": "2021-02-20T15:00:00Z",
+        "brand": "SecurityGuard"
+      },
+      {
+        "id": "33",
+        "name": "Electric Shaver",
+        "image": "https://i.ibb.co/c3d1krV/download-4.jpg",
+        "description": "Rechargeable electric shaver with precision blades and ergonomic design.",
+        "price": 34.99,
+        "category": "Personal Care",
+        "ratings": 4.5,
+        "dateAdded": "2021-01-15T10:00:00Z",
+        "brand": "SmileBright"
+
+      },
     {
       "id": "34",
       "name": "Outdoor Security Camera",
-      "image": "https://example.com/images/securitycamera.jpg",
+      "image": "https://i.ibb.co/1ntZXPG/download-5.jpg",
       "description": "Wireless outdoor security camera with night vision and motion alerts.",
       "price": 79.99,
       "category": "Security",
       "ratings": 4.6,
-      "dateAdded": "2020-12-01T14:00:00Z"
+      "dateAdded": "2020-12-01T14:00:00Z",
+      "brand": "SoundMax"
     },
     {
       "id": "35",
       "name": "Digital Alarm Clock",
-      "image": "https://example.com/images/alarmclock.jpg",
+      "image": "https://i.ibb.co/dcsYh3m/download-6.jpg",
       "description": "Modern digital alarm clock with LED display, snooze function, and USB charging port.",
       "price": 19.99,
       "category": "Home Decor",
       "ratings": 4.4,
-      "dateAdded": "2020-11-10T09:00:00Z"
+      "dateAdded": "2020-11-10T09:00:00Z",
+      "brand": "SoundMax"
     },
     {
       "id": "36",
       "name": "Electric Blanket",
-      "image": "https://example.com/images/electricblanket.jpg",
+      "image": "https://i.ibb.co/w7F93yY/Country-Club-Super-Cosy-Fleece-Electric-Blanket-96-X339-FRSP.webp",
       "description": "Soft electric blanket with adjustable heat settings and auto shut-off.",
       "price": 49.99,
       "category": "Home Appliances",
       "ratings": 4.5,
-      "dateAdded": "2020-10-15T11:30:00Z"
+      "dateAdded": "2020-10-15T11:30:00Z",
+      "brand": "SoundMax"
     },
     {
       "id": "37",
       "name": "Smart Ceiling Fan",
-      "image": "https://example.com/images/ceilingfan.jpg",
+      "image": "https://i.ibb.co/zfqW1QP/PRISM-KV-Smart.webp",
       "description": "Smart ceiling fan with remote control and app integration for scheduling and speed settings.",
       "price": 199.99,
       "category": "Home Appliances",
       "ratings": 4.7,
-      "dateAdded": "2020-09-01T16:00:00Z"
+      "dateAdded": "2020-09-01T16:00:00Z",
+      "brand": "SoundMax"
     },
     {
       "id": "38",
       "name": "Electric Bike",
-      "image": "https://example.com/images/electricbike.jpg",
+      "image": "https://i.ibb.co/pfg32hW/Image2LQ.webp",
       "description": "Electric bike with pedal assist, long battery range, and comfortable design.",
       "price": 999.99,
       "category": "Outdoor",
       "ratings": 4.8,
-      "dateAdded": "2020-08-15T12:00:00Z"
+      "dateAdded": "2020-08-15T12:00:00Z",
+      "brand": "SoundMax"
     },
     {
       "id": "39",
       "name": "Home Theater System",
-      "image": "https://example.com/images/hometheater.jpg",
+      "image": "https://i.ibb.co/gP14gjw/download-7.jpg",
       "description": "Complete home theater system with surround sound and Bluetooth connectivity.",
       "price": 299.99,
       "category": "Electronics",
       "ratings": 4.7,
-      "dateAdded": "2020-07-10T14:00:00Z"
+      "dateAdded": "2020-07-10T14:00:00Z",
+      "brand": "SoundMax"
     },
     {
       "id": "40",
       "name": "Smart Lock",
-      "image": "https://example.com/images/smartlock.jpg",
+      "image": "https://i.ibb.co/ts60tnB/download-8.jpg",
       "description": "Smart lock with keyless entry, remote access, and activity monitoring.",
       "price": 129.99,
       "category": "Security",
       "ratings": 4.6,
+      "brand": "SoundMax", 
       "dateAdded": "2020-06-05T09:00:00Z"
     }
   ]

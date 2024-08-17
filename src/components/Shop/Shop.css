@@ -4,7 +4,11 @@
     /* position: relative; */
     margin-left: 100px;
 }
-
+@media (max-width: 768px) {
+    .shop-container {
+        margin-left: 0px;
+    }
+}
 .products-container {
    /* margin-left: auto;
    margin-right: auto; */

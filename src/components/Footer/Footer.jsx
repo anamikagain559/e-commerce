@@ -18,8 +18,8 @@ const Footer = () => {
       <div className="w-[1280px] mx-auto grid lg:grid-cols-3 grid-cols-1 gap-10">
         <nav className=" lg:p-5 ">
           <h6 className=" text-white mb-6 text-2xl font-bold uppercase">
-            <span className="bg-red-500 text-white px-2">Infinite</span>{" "}
-            Insights
+            <span className="bg-red-500 text-white px-2">Happy</span>{" "}
+            Mart
           </h6>
           <p className="text-white lg:w-full w-[380px]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit Aenean
@@ -65,7 +65,7 @@ const Footer = () => {
           <div className="flex shadow-xl gap-4 rounded-xl">
               <figure>
                 <img
-                  src="https://i.ibb.co/89kGp7x/pexels-helena-lopes-693268-500x350.jpg"
+                  src="https://i.ibb.co/QCb6ss9/rsp-detail-tineco-pure-one-s11-tango-smart-stick-handheld-vacuum-at-tineco-hwortock-0015-8885297ca97.jpg"
                   alt="Movie"
                   className="rounded-xl mt-2 lg:h-[120px] lg:w-[200px] h-[120px] w-[140px]"
                 />
@@ -92,7 +92,7 @@ const Footer = () => {
             <div className="flex shadow-xl gap-4 rounded-xl">
               <figure>
                 <img
-                  src="https://i.ibb.co/jyqkyr9/pexels-josh-hild-2422259-1000x650.jpg"
+                  src="https://i.ibb.co/pfg32hW/Image2LQ.webp"
                   alt="Movie"
                   className="rounded-xl mt-2 lg:h-[120px] lg:w-[200px] h-[120px] w-[140px]"
                 />
@@ -119,55 +119,55 @@ const Footer = () => {
         </nav>
         <nav>
         <h6 className="text-xl font-bold text-white">Categories</h6>
-          <div className="flex gap-7 mt-5  flex-wrap w-[400px]">
-          <div className="flex gap-7 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
+          <div className="flex gap-2 mt-5  flex-wrap w-[400px]">
+          <div className="flex gap-2 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
                 <div className="text-white ">
-                    <h3 className="text-lg font-bold">Active</h3>
+                    <h3 className="text-lg font-bold">Home Decor</h3>
                     <p className="text-sm">11 Posts</p>
                 </div>
                 <div >
-                    <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/jyqkyr9/pexels-josh-hild-2422259-1000x650.jpg" alt="" />
+                    <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/pbyVZyX/633bc22597235258d52d0584-office-chair-felixking-ergonomic-desk.jpg" alt="" />
                 </div>
             </div>
-            <div className="flex gap-7 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
+            <div className="flex gap-2 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
                 <div className="text-white ">
-                    <h3 className="text-lg font-bold">Active</h3>
+                    <h3 className="text-lg font-bold">Clothing</h3>
                     <p className="text-sm">11 Posts</p>
                 </div>
                 <div >
-                    <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/yBdLWCp/The-Pros-and-Cons-of-Living-in-Malaysia.webp" alt="" />
+                    <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/StZ84Vb/M-Heavy-Boxed-T-Shirt-aus-Bio-Baumwolle-Kleidung-Fair-Natural-Raw-Vorne2.jpg" alt="" />
                 </div>
             </div>
-            <div className="flex gap-7 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
+            <div className="flex gap-2 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
                 <div className="text-white ">
-                    <h3 className="text-lg font-bold">Active</h3>
+                    <h3 className="text-lg font-bold">Electronics</h3>
                     <p className="text-sm">11 Posts</p>
                 </div>
                 <div >
-                    <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/yBdLWCp/The-Pros-and-Cons-of-Living-in-Malaysia.webp" alt="" />
+                    <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/5Y9d6hX/0373155-p47-headband-foldable-stereo-bluetooth-headphones-wireless-headset.jpg" alt="" />
                 </div>
             </div>
-            <div className="flex gap-7 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
+            <div className="flex gap-2 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
                 <div className="text-white ">
-                    <h3 className="text-lg font-bold">Active</h3>
+                    <h3 className="text-lg font-bold">Smart Home</h3>
                     <p className="text-sm">11 Posts</p>
                 </div>
                 <div >
                     <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/YW087L4/herdian-indraputra-6k-NVJ1fr3-Ug-unsplash-380x380.jpg" alt="" />
                 </div>
             </div>
-            <div className="flex gap-7 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
+            <div className="flex gap-2 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
                 <div className="text-white ">
-                    <h3 className="text-lg font-bold">Active</h3>
+                    <h3 className="text-lg font-bold">Computers</h3>
                     <p className="text-sm">11 Posts</p>
                 </div>
                 <div >
                     <img className="rounded-[50%] w-12 h-12" src="https://i.ibb.co/QH4L9NX/daniel-korpai-L8y01m-Tu-DZg-unsplash-scaled-500x350.jpg" alt="" />
                 </div>
             </div>
-            <div className="flex gap-7 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
+            <div className="flex gap-2 bg-[#151515] p-4 rounded-lg border border-solid border-gray-800 shadow-xl ">
                 <div className="text-white ">
-                    <h3 className="text-lg font-bold">Active</h3>
+                    <h3 className="text-lg font-bold">Personal Care</h3>
                     <p className="text-sm">11 Posts</p>
                 </div>
                 <div >

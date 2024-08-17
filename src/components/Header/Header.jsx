@@ -47,7 +47,7 @@ const Header = () => {
               <li>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/addBlog">Add Blog</NavLink>
             </li>
             <li>
@@ -59,7 +59,7 @@ const Header = () => {
             <li>
             <NavLink to="/wishlist">Wishlist</NavLink>
               
-            </li>
+            </li> */}
             {user ? (
             <>
               <img
@@ -93,7 +93,7 @@ const Header = () => {
             </ul>
           </div>
           <a className="btn btn-ghost text-3xl font-bold uppercase">
-            <span className="bg-red-500 text-white px-2">Infinite</span> Insights
+            <span className="bg-red-500 text-white px-2">Happy</span> Mart
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
@@ -101,7 +101,7 @@ const Header = () => {
             <li>
               <NavLink to="/">Home</NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink to="/addBlog">Add Blog</NavLink>
             </li>
             <li>
@@ -113,7 +113,7 @@ const Header = () => {
             <li>
             <NavLink to="/wishlist">Wishlist</NavLink>
               
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="navbar-end">
