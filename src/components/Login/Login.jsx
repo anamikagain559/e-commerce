@@ -10,7 +10,6 @@ import { useEffect } from "react";
 import { FaRegEyeSlash } from "react-icons/fa6";
 
 import { AuthContext } from "../Provider/AuthProvider.jsx";
-
 function Login() {
   const { signIn, user, signInWithGoogle, signInWithGithub } =
     useContext(AuthContext);
